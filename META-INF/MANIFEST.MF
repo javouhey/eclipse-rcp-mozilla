@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RCP with scala
+Bundle-SymbolicName: rcp.with.scala; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: rcp.with.scala.Activator
+Bundle-Vendor: Gavin Bong
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.expressions,
+ org.apache.mina.core,
+ slf4j.api,
+ slf4j.log4j12
+Eclipse-LazyStart: true
